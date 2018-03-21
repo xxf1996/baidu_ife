@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>固定宽高水平垂直居中2</title>
+    <style>
+        #bg{
+            width: 400px;
+            height: 200px;
+            background-color: #cccccc;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            overflow: hidden;
+        }
+        #top-left{
+            position: absolute;
+            left: -50px;
+            top: -50px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #fc0;
+        }
+        #bottom-right{
+            position: absolute;
+            right: -50px;
+            bottom: -50px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #fc0;
+        }
+    </style>
+</head>
+<body>
+<div id="bg">
+    <i id="top-left"></i>
+    <i id="bottom-right"></i>
+</div>
+</body>
+</html>
