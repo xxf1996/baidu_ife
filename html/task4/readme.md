@@ -48,3 +48,9 @@
 ### 其他方案
 
 也可以利用`flex`布局，通过在外面增加一个`flex`容器盒子，然后将盒子的`flex-direction`和`align-items`都设为`center`即可实现自适应宽高的水平垂直居中。
+
+
+
+## 参考文档
+
+1. [如何将一个div水平垂直居中？6种方法做推荐 - Julia-Yuan - 博客园](https://www.cnblogs.com/Julia-Yuan/p/6648816.html)
